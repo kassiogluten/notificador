@@ -5,27 +5,33 @@ import { FaWhatsapp } from "react-icons/fa";
 
 export default function Home() {
   return (
-    <main className="gap-8 flex min-h-screen flex-col items-center justify-between p-2 lg:p-12  ">
-      <Image src="/logo.png" width={510} height={345} alt="Logo" />
+    <main className="gap-8 flex min-h-screen flex-col items-center justify-evenly p-2 lg:p-12  ">
+      <Image src="/logo.png" width={255} height={172} alt="Logo" />
       <section className="container w-full flex flex-col-reverse md:flex-row gap-4 sm:gap-12 items-center justify-center">
         <div className="flex-1 text-primary gap-4 p-2 lg:p-8 flex flex-col ">
           <h1 className="text-4xl text-purple-500">
             <b>Notificações e automações</b> via Whatsapp
           </h1>
           <p className="text-xl ">
-            Alertas <b>diretamente no Whatsapp</b> em seu número ou de seus
-            clientes, em momentos importantes, exemplos:
+            Experimente a <b>conveniência e eficiência</b> das notificações e
+            automações personalizadas via WhatsApp.
+          </p>
+          <p className="text-xl ">
+            Receba alertas diretamente em seu número ou nos números de seus
+            clientes, nos <b>momentos cruciais</b>, tais como:
           </p>
           <ul className="space-y-2">
-            <li>• Quando um cliente preencher um formulário de contato</li>
-            <li>• Ao realizar uma venda</li>
-            <li>• Quando um produto estiver sem estoque</li>
-            <li>• Periodicamente em uma data e horário específico</li>
+            <li>• Quando um cliente preenche um formulário de contato</li>
+            <li>• Após a conclusão de uma venda</li>
+            <li>• Quando um produto está prestes a ficar sem estoque</li>
+            <li>• Em datas e horários específicos programados</li>
             <li>• No vencimento de contas</li>
           </ul>
           <p className="text-muted">
-            Você está no controle das notificações, adicione, pause ou exclua as
-            automações individualmente
+            Mantenha o controle total das suas notificações, com a capacidade de
+            adicionar, pausar ou excluir automações de forma individual. Estamos
+            aqui para <b>simplificar e aprimorar a comunicação</b>, garantindo
+            que você esteja sempre no comando das interações importantes.
           </p>
           <Button
             asChild
